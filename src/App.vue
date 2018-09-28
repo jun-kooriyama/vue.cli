@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/image.jpg">
+    <h1>TaskApp</h1>
+    <h1>Task Management.</h1>
+
     <router-view/>
   </div>
 </template>
@@ -20,4 +23,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
